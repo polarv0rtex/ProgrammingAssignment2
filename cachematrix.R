@@ -1,6 +1,9 @@
 ## These functions are able to compute and cache
 ## inverse of a square matrix.
 
+## I basically took the code from R Peng 
+## and changed the word "mean" to "solve" or "matrix".
+
 ## This function creates a special "matrix"
 ## that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
